@@ -1,0 +1,77 @@
+a {
+    color: rgb(199, 199, 199);
+}
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: darkslategrey;
+    color: rgb(199, 199, 199);
+    margin: 0;
+}
+.btn {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+    margin: 0 0 0 10px;
+    padding: 10px 15px;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    background: rgb(56, 114, 114);
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141, 150, 178, 0.3);
+    transform: scale(1.05);
+}
+
+.message__input {
+    border: 1.5px solid #9b9b9b;
+    border-radius: 4px;
+    background-color: rgb(33, 63, 63);
+    color: rgb(199, 199, 199);
+}
+.message__wrap {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.message {
+    padding: 10px;
+    margin: 30px auto;
+    max-width: 634px;
+    border: 3px solid rgb(63, 88, 88);
+    border-radius: 5px;
+}
+
+.messages {
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 7px;
+    align-self: flex-end;
+}
+
+.message__user {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.message__text-block {
+    overflow: auto;
+    padding: 10px;
+    border: 3px solid rgb(71, 95, 95);
+    border-radius: 10px;
+    background-color: rgb(33, 63, 63);
+    padding-bottom: 100px;
+}
